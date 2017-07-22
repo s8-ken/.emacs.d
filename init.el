@@ -36,6 +36,9 @@
       '("/tmp/"))
 
 
+;; keybind for magit
+(global-set-key (kbd "C-x g") 'magit-status)
+
 ;; activate flycheck
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
