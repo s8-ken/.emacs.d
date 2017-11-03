@@ -31,6 +31,16 @@
 
 (require 'undohist)
 (undohist-initialize)
+
+;; activate flycheck
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+;; disable mouse(without wheel)
+(require ' disable-mouse)
+(global-disable-mouse-mode)
+
+
+
 ;;; 永続化を無視するファイル名の正規表現
 (setq undohist-ignored-files
       '("/tmp/"))
@@ -39,8 +49,7 @@
 ;; keybind for magit
 (global-set-key (kbd "C-x g") 'magit-status)
 
-;; activate flycheck
-(add-hook 'after-init-hook #'global-flycheck-mode)
+
 
 ;; use C-h as a backspace key
 (keyboard-translate ?\C-h ?\C-?)
@@ -138,3 +147,22 @@
 
 ;; バックアップファイルを作成させない
 (setq make-backup-files nil)
+
+
+(setq load-path (cons  "/usr/local/otp/lib/tools-<ToolsVer>/emacs"
+                       load-path))
+(setq erlang-root-dir "/usr/local/otp")
+(setq exec-path (cons "/usr/local/otp/bin" exec-path))
+(require 'erlang-start)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(initial-buffer-choice "~/.emacs.d/emacs_cheatsheet.txt"))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
