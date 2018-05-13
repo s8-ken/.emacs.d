@@ -1,0 +1,128 @@
+python svm.py 
+ls
+cd workspace/paiza/
+ls
+gcc B045.c 
+ls
+./a.out 
+./a.out 
+gcc B045.c 
+./a.out 
+gcc B045.c 
+cd workspace/paiza/
+cd workspace/paiza/
+gcc B045.c 
+gcc B045.c 
+./a.out 
+./a.out 
+gcc B045.c 
+./a.out 
+gcc B045.c 
+./a.out 
+gcc B045.c 
+./a.out 
+gcc B045.c 
+./a.out 
+gcc B045.c 
+./a.out 
+gcc B045.c 
+cd workspace/paiza/
+gcc B045.c 
+./a.out 
+./a.out 
+./a.out
+./a.out
+gcc B045.c ./a.out
+gcc B045.c ./a.out
+gcc B045.c 
+./a.out
+gcc B045.c 
+./a.out
+./a.out
+ls
+python test.html 
+mv test.html test.txt
+python T2H_CP.py test.txt 
+python T2H_CP.py test.txt 
+python T2H_CP.py test.txt 
+python2 T2H_CP.py test.txt 
+cat test.html 
+rails s
+rails generate scaffold Micropost content:text user_id:integer
+rails db:migrate
+rails s
+emaccd ../
+cd ../
+cd ../
+rails new sample_app
+git remote add git@github.com:s8-ken/rubyonrails.git
+git remote origin git@github.com:s8-ken/rubyonrails.git
+cd ~/workspace/rubyonrails/sample_app/
+ls
+../../
+ls
+../
+cd test/controllers/
+ls
+cat static_pages_controller_test.rb 
+rails test
+rails test
+rails test
+rails test
+touch ../../app/views/static_pages/about.html.erb
+emacs ../../app/views/static_pages/about.html.erb
+rails test
+mv ../../app/views/layouts/application.html.erb  layout_file
+rails test
+rails test
+rails test
+rails test
+rails test
+rails test
+rails test
+rails test
+mv layout_file ../../app/views/layouts/application.html.erb
+rails test
+rails test
+rails test
+rails test
+rails test
+cd ../../../
+git add -A
+git commit -m "3.4.3の演習まで終わった"
+cd push
+git push
+rails test
+cd foo/
+rails test
+cd ../sample_app/
+rails test
+rails s
+rails test
+cd test/controllers/
+ls
+rails test
+rails test
+rails test
+cd ~/workspace/rubyonrails/sample_app/test/controllers/
+rails test
+rails test
+cd ../../../
+git add -A
+git commit -m "Finish static pages"
+git commit -m "Finish static pages"git checkout master
+git checkout master
+git merge static-pages
+git push
+git checkout -b rails-flavored-ruby
+cd sample_app/
+ls
+rails test/
+cd test/controllers/
+ls
+rails test
+rails testls
+rails testls
+rails test
+rails test
+rails c

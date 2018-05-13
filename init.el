@@ -1,18 +1,22 @@
 (package-initialize)
 (setq package-archives
       '(("gnu" . "http://elpa.gnu.org/packages/")
-	("melpa" . "http://melpa.org/packages/")
-	("org" . "http://orgmode.org/elpa/")))
+        ("melpa" . "http://melpa.org/packages/")
+        ("org" . "http://orgmode.org/elpa/")))
 
-;; ;use helm
-;; (require 'helm-config)
-;; (helm-mode 1)
-;; (define-key global-map (kbd "C-;") 'helm-mini)
-;; (define-key global-map (kbd "M-y") 'helm-show-kill-ring)
+;;use helm
+(require 'helm-config)
+(helm-mode 1)
+(define-key global-map (kbd "C-;") 'helm-mini)
+(define-key global-map (kbd "M-y") 'helm-show-kill-ring)
 
 ;;load theme
 (load-theme 'zenburn t)
 
+;; 非アクティブウィンドウの背景色を設定
+(require 'hiwin)
+(hiwin-activate)
+(set-face-background 'hiwin-face "gray30")
 
 ;; activate undo-tree
 (global-undo-tree-mode)
@@ -39,6 +43,8 @@
 (require ' disable-mouse)
 (global-disable-mouse-mode)
 
+;; エラー音をならなくする
+(setq ring-bell-function 'ignore)
 
 
 ;;; 永続化を無視するファイル名の正規表現
@@ -166,3 +172,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+
+;; git-gutter-fringe
+(global-git-gutter-mode 1)
+
+
