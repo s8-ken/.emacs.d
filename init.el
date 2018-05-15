@@ -10,8 +10,23 @@
 (define-key global-map (kbd "C-;") 'helm-mini)
 (define-key global-map (kbd "M-y") 'helm-show-kill-ring)
 
+
 ;;load theme
-(load-theme 'zenburn t)
+;; fringeを背景から目立たせる
+(setq solarized-distinct-fringe-background t)
+;;
+;; mode-lineを目立たせる(Fig3)
+(setq solarized-high-contrast-mode-line t)
+(load-theme 'solarized-dark t)
+
+
+
+;;;ruby関連
+;;erbファイルはwebmodeで開く
+(setq auto-mode-alist
+      (append '(("\\.erb$" . web-mode))
+              auto-mode-alist))
+
 
 ;; 非アクティブウィンドウの背景色を設定
 (require 'hiwin)
@@ -147,9 +162,6 @@
 (show-paren-mode t)
 (setq show-paren-delay 0)
 (setq show-paren-style 'expression)
-(set-face-background 'show-paren-match-face "blue")
-(set-face-underline-p 'show-paren-match-face "Yellow")
-
 
 ;; バックアップファイルを作成させない
 (setq make-backup-files nil)
@@ -165,7 +177,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(initial-buffer-choice "~/.emacs.d/emacs_cheatsheet.txt"))
+ ;; '(initial-buffer-choice "~/.emacs.d/emacs_cheatsheet.txt"))
+ )
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -174,7 +187,6 @@
  )
 
 
-;; git-gutter-fringe
-(global-git-gutter-mode 1)
+(provide 'init.el)
 
 

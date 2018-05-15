@@ -1,17 +1,3 @@
-python svm.py 
-ls
-cd workspace/paiza/
-ls
-gcc B045.c 
-ls
-./a.out 
-./a.out 
-gcc B045.c 
-./a.out 
-gcc B045.c 
-cd workspace/paiza/
-cd workspace/paiza/
-gcc B045.c 
 gcc B045.c 
 ./a.out 
 ./a.out 
@@ -126,3 +112,17 @@ rails testls
 rails test
 rails test
 rails c
+ruby C
+ruby C017.rb 
+ruby C017.rb 
+ruby C017.rb 
+ruby C017.rb 
+ruby C017.rb 
+ruby C017.rb 
+ls
+ruby C017.rb 
+ruby C017.rb 
+ruby C017.rb >> result
+cat result 
+ruby C017.rb >> result
+cat result 
