@@ -1,3 +1,5 @@
 
-((digest . "c471dae28ada11dab5f57fff32e88666") (undo-list nil ("s" . 322) nil ("
-" . 268) ((marker . 17) . -1) ((marker . 17) . -1) (t 23289 26977 659199 658000) nil ("," . -339) ((marker . 337) . -1) nil (":" . -340) nil ("u" . -341) nil ("n" . -342) nil ("i" . -343) nil ("q" . -344) nil ("u" . -345) nil ("e" . -346) nil ("n" . -347) nil ("e" . -348) nil ("s" . -349) nil ("s" . -350) (t 23289 26344 383980 969000) nil (340 . 341) nil (340 . 350) nil ("u" . -340) nil ("n" . -341) nil ("i" . -342) nil ("q" . -343) nil ("u" . -344) nil ("e" . -345) nil ("n" . -346) nil ("e" . -347) nil ("s" . -348) nil ("s" . -349) nil (":" . -350) nil (340 . 351) ("uni" . -340) nil (340 . 343) nil (335 . 340) nil (315 . 335) nil (312 . 315) (t 23289 16335 536726 742000) nil (269 . 271) ("  " . 268) (267 . 271) nil (257 . 267) nil ("#" . -257) nil (253 . 258) nil (250 . 253) (t 23289 16179 452291 582000)))
+((digest . "ff37ff0db2b164c937ee69720bfceb80") (undo-list nil ("  end
+" . 291) ((marker . 1) . -6) ((marker . 1) . -6) ((marker) . -6) nil ("  def add_error_sample
+" . 291) ((marker) . -23) ((marker) . -23) ((marker) . -23) nil ("  validate :add_error_sample
+" . 31) ((marker) . -29) ((marker) . -29) ((marker) . -29) (t 23297 28630 595676 784000) nil ("  " . -345) (347 . 350) nil undo-tree-canary))

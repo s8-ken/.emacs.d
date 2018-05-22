@@ -1,0 +1,1 @@
+("~/workspace/rubyonrails/sample_app/" "~/workspace/rubyonrails/shorten_urls/" "~/.emacs.d/" "~/workspace/rubyonrails/shibaken/")
